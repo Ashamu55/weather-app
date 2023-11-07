@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/pexels-aleksandar-pasaric-325185.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(255, 0, 0, 0.39); */
+}
+
+main {
+    display: flex;
+}
+
+#com {
+    background-image: url(image/pexels-aleksandar-pasaric-325185.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.137);
+    margin-top: 200px;
+    margin-left: 250px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 180px;
+    padding-top: 30px;
+    /* position: static; */
+    /* top: 0; */
+    /* bottom: 0; */
+}
+
+#showError {
+    color: red !important;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#sec {
+    width: 500px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+}
+
+#sec:focus {
+    border-bottom: 2px solid #5b5fc7;
+    border-radius: 4px 4px 2px 2px;
+}
+
+#sec:hover {
+    outline: 1px solid lightgrey;
+}
+
+#seach {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#seach span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+#seach span:after {
+    content: 'for free';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+} 
+
+#seach:hover span {
+    padding-right: 3.55em;
+}
+
+#seach:hover span:after {
+    opacity: 4;
+    right: 0;
+}
+
+#disp {
+    color: black !important;
+    margin-top: 80px;
+    margin-left: -200px !important;
+}
+
+.feels>h2 {
+    font-size: 150px;
+    font-family: sans-serif;
+}
+
+.feels>p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -55px !important;
+    text-shadow: 2px 3px #fff;
+}
+
+img {
+    margin-left: 300px;
+    margin-top: -200px;
+    width: 100px;
+    height: 100px;
+    background-color: #24242418;
+    border-radius: 100%;
+}
+
+h1 {
+    color: white;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+#disp {
+    color: white;
+}
+
+#showError {
+    color: white;
+}
+
+#con {
+    padding-top: 150px;
+    width: 40%;
+    margin-left: 200px;
+    height: 911px;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-top-left-radius: 100%;
+}
+
+.feeling {
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.feeling>p {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 1440px){
+    body {
+        background-image: url(image/pexels-aleksandar-pasaric-325185.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    
+    main {
+        display: block;
+    }
+
+    #showError {
+        color: white;
+        margin-left: 0px;
+    }
+
+    #sec {
+        width: 90%;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #242424;
+        padding: .15rem .5rem;
+        min-height: 40px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        line-height: 1.15;
+        box-shadow: 0px 10px 20px -18px;
+        margin-left: -18px;
+    }
+
+    #seach {
+        display: inline-block;
+        border-radius: 7px;
+        border: none;
+        background: #1875FF;
+        color: white;
+        font-family: inherit;
+        text-align: center;
+        font-size: 13px;
+        box-shadow: 0px 14px 56px -11px #1875FF;
+        width: 10em;
+        padding: 1em;
+        transition: all 0.4s;
+        cursor: pointer;
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+
+    #com {
+        width: 100%;
+        height: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: none;
+        box-shadow: 0px 0px 0px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding-top: 30px;
+        /* position: static; */
+        /* top: 0; */
+        /* bottom: 0; */
+    }
+
+    .feels>h2 {
+        margin-left: 150px !important;
+        font-size: 120px !important;
+        margin-top: -30px;
+        font-family: sans-serif;
+    }
+    
+    .feels>p {
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 100px !important;
+        text-shadow: 2px 3px #fff;
+    }
+
+    img {
+        margin-left: 400px;
+        margin-top: -200px;
+        width: 100px;
+        height: 100px;
+        background-color: #2424240c;
+        border-radius: 100%;
+    }
+    
+    #con {
+        text-align: center;
+        margin-top: 500px;
+        padding-top: 10px;
+        width: 100%;
+        margin-left: 00px;
+        height: 411px;
+        background-color: rgba(0, 0, 0, 0.199);
+        border-top-left-radius: 0%;
+    }
+
+    h1 {
+        color: white;
+        padding-left: 0px;
+        padding-top: 110px;
+        font-size: 45px;
+    }
+
+    .feeling {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    
+    .feeling>p {
+        color: white;
+        font-family: sans-serif;
+        font-style: italic;
+        margin-top: 16px;
+        font-size: 20px;
+    }
+}
+
+@media screen {
+    
+}
